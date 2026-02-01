@@ -1,28 +1,32 @@
+# 📘 NLP Based Plagiarism Detection System
 
-# NLP-Based Plagiarism Detection System
+This project detects plagiarism in text and PDF documents using Natural Language Processing (NLP).
 
-This project implements a plagiarism detection system using Natural Language Processing techniques.
+## 🔍 Features
+- Upload PDF or enter text
+- TF-IDF based similarity detection
+- Cosine similarity plagiarism scoring
+- AI-generated vs human-written prediction
+- Downloadable plagiarism report
 
-## Features
-- Detects AI-generated vs human-written text
-- Calculates plagiarism similarity percentage
-- Displays most similar content
-- Web-based interface using Streamlit
-
-## Technologies Used
+## 🧠 Technologies Used
 - Python
-- NLTK
-- Scikit-learn
-- TF-IDF
-- Cosine Similarity
 - Streamlit
+- Scikit-learn
+- TF-IDF Vectorization
+- Cosine Similarity
+- PDFPlumber
 
-## How It Works
-1. User enters text
-2. Text preprocessing is applied
-3. TF-IDF converts text to numerical form
-4. Machine learning model predicts content type
-5. Cosine similarity calculates plagiarism score
+## 📁 Project Structure
+- `app.py` – Streamlit application
+- `data/` – Dataset used for similarity
+- `model/` – Trained TF-IDF and classifier models
+- `src/` – Modular processing files
 
-## Application
-Useful for students, teachers, and academic plagiarism checking.
+## 🚀 Deployment
+This project is deployed using **Streamlit Cloud**.
+
+## 👩‍💻 Developed by
+**Syed Asmath**  
+MTech – Data Science  
+GVP College of Engineering for Women
